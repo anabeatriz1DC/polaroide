@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* renderização  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* definir as fontes da polaroid */
+.produto p{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+/* alteração na fonte e cor do header */
+header{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #333;
+    padding: 30px;
+    background-color: #d3d3d3;
+}
+
+main#album{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
+}
+
+.produto{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.produto img{
+    width: 100%;
+    /* borda na parte superior */
+    padding-bottom: 10px;
+}
+
+
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
